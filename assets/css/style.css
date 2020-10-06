@@ -1,0 +1,107 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin-left: 5%;
+    margin-right: 140px;
+    font-size: 1.1em;
+    background-color:azure;
+}
+img {
+    width: 231.6px;
+    height: 308.7px;
+}
+
+a:link {
+    font-style: normal;
+    color: blue;
+    text-decoration-line: none;   
+}
+
+
+a:visited {
+    color: mediumpurple;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: darkcyan;
+    text-decoration-line: underline;
+}
+
+a:active {
+    color: greenyellow;
+    text-decoration-line: underline;
+}
+
+div.selfie figure{
+    margin-left: 0;
+}
+
+div.selfie img {
+    border: 2px solid;
+}
+
+div.selfie figcaption{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#intro li{
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: -1.2em;
+
+} 
+
+.navbar li{
+    list-style: square;
+    padding-bottom: 0.5em;
+}
+
+
+#resume li {
+    list-style: circle;
+}
+
+#resume a:link {
+    color: red;
+}
+
+#resume a:visited {
+    color: darkblue;
+}
+
+
+#education li {
+    list-style: circle;
+}
+
+#personal li {
+    list-style: circle;
+}
+
+h2 {
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+.sidebar {
+    width: 120px;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    background-color: #eee;
+    padding: 8px; 
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #2196f3;
+    display: block;
+}
+
+.sidebar a:hover {
+  color: #064579;
+}
